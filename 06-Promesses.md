@@ -21,7 +21,7 @@ Lorsque vous utilisez `fetch` pour effectuer une requête HTTP, elle retourne im
 ### Exemple :
 
 ```javascript
-fetch('https://api.example.com/data')
+fetch('https://api.github.com/users/{username}')
   .then(response => response.json())
   .then(data => {
     // Traitez ici les données renvoyées
